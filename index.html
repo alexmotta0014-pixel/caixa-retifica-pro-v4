@@ -1,10 +1,29 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Retífica Caixa 4.0</title>
+    <!-- CARREGADOR DE DESIGN (TAILWIND) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Configuração para garantir que o design clássico funcione
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'caixa-blue': '#1e3a8a',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Reset para garantir que nada fique bagunçado */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background-color: #f1f5f9; font-family: sans-serif; }
+      #root { min-height: 100vh; }
+    </style>
   </head>
   <body>
     <div id="root"></div>
