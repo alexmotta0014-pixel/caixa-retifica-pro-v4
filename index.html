@@ -4,25 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Retífica Caixa 4.0</title>
-    <!-- CARREGADOR DE DESIGN (TAILWIND) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      // Configuração para garantir que o design clássico funcione
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'caixa-blue': '#1e3a8a',
-            }
-          }
-        }
-      }
-    </script>
     <style>
-      /* Reset para garantir que nada fique bagunçado */
-      * { margin: 0; padding: 0; box-sizing: border-box; }
-      body { background-color: #f1f5f9; font-family: sans-serif; }
-      #root { min-height: 100vh; }
+      body { background-color: #f1f5f9; margin: 0; font-family: sans-serif; }
+      input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
     </style>
   </head>
   <body>
